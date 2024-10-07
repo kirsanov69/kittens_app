@@ -64,6 +64,7 @@ DEBUG: Устанавливает режим отладки для Django (1 —
 Если вы вносите изменения в модели, не забудьте выполнить миграции.
 
 python manage.py makemigrations
+
 python manage.py migrate
 
 ### Лицензия

@@ -76,7 +76,7 @@ class KittenRatingView(APIView):
     permission_classes = [IsAuthenticated]
 
     '''
-    Здесь вщзникла трудность - не получается получить объект пользователя
+    Здесь возникла трудность - не получается получить объект пользователя
     Точнее, получается, но не тот, который нужен
     Выпадает ошибка при попытке получить объект пользователя
     ValueError: Cannot assign "<User: root>": "Kitten.owner" must be a "User" instance.
